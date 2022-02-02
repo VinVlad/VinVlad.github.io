@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uber</title>
+    <link rel="icon" href="./icons/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -20,9 +21,9 @@
             <div class="container">
                     <ul class="menu">
                         <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
-                        <li class="menu_item"><a href="#" class="menu_link">Со своим автомобилем</a></li>
-                        <li class="menu_item"><a href="#" class="menu_link">На автомобиле компании</a></li>
-                        <li class="menu_item"><a href="#" class="menu_link">Требования</a></li>
+                        <li class="menu_item"><a href="#require" class="menu_link">Со своим автомобилем</a></li>
+                        <li class="menu_item"><a href="#require" class="menu_link">На автомобиле компании</a></li>
+                        <li class="menu_item"><a href="#request" class="menu_link">Требования</a></li>
                         <li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
                         <li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
                     </ul>
@@ -264,7 +265,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="require_block">
-                        <div class="require_title">УСЛОВИЯ: со своим авто:</div>
+                        <div class="require_title" id='require'>УСЛОВИЯ: со своим авто:</div>
                         <ul class="require_list">
                             <li>Подключаем к системе UBER  под 10%.</li>
                             <li>Ни каких взносов  0%!</li>
@@ -278,7 +279,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="require_block">
+                    <div class="require_block" id='require'>
                         <div class="require_title">УСЛОВИЯ: на авто компании:</div>
                         <ul class="require_list">
                             <li>Предоставляем авто без залога</li>
@@ -289,7 +290,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="require_block require_block_nmb warning">
-                        <div class="require_title">ТРЕБОВАНИЕ:</div>
+                        <div class="require_title" id="request">ТРЕБОВАНИЕ:</div>
                         <ul class="require_list">
                             <li>Наличие автомобиля без рекламы</li>
                             <li>Автомобиль не должен быть желтый и не с желтыми 
